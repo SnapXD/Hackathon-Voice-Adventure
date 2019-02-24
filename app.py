@@ -10,3 +10,8 @@
 #   Jesus Cruz
 #   Brandon Garza
 #
+#   Install cmd:
+#   pip3 install dialogflow
+
+import dialogflow_v2 as dialogflow
+session_client = dialogflow.SessionsClient()
